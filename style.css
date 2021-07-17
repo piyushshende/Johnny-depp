@@ -56,7 +56,7 @@ main .image {
 .image span {
     position: absolute;
     top: 45%;
-    left: 50%;
+    left: 55%;
     color: #0043ff;
     font-size: 1.2vw;
     transition-property: transform;
