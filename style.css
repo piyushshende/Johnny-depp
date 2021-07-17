@@ -20,7 +20,7 @@ section .side-bar {
     position: static;
     border: 1px solid black;
     width: 10vw;
-    max-height: 68.8vh;
+    -webkit-max-height: 20vh;
     background-color: black;
     color: white;
     border-bottom-left-radius: 5px;
