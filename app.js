@@ -6,23 +6,22 @@ window.addEventListener('load', function() {
     let iopacity = document.querySelector('img');
     let article = document.querySelector('article');
     let grid = document.querySelector('.grid');
-    let image = document.querySelector('.image');
     let span = document.querySelector('span');
     let social = document.querySelectorAll('a');
 
     about.addEventListener('click', function() {
-        grid.style.display = 'none';
         if (iopacity.classList.contains('img-opacity2')) {
             iopacity.classList.remove('img-opacity2');
         }
-        if (span.classList.contains('trans')) {
-            span.classList.remove('trans');
-        }
+        grid.style.display = 'none';
         span.style.display = 'block';
-        span.setAttribute('class', 'trans');
+        // if (span.classList.contains('trans')) {
+        //     span.classList.remove('trans');
+        // }
+        socialRemove();
         iopacity.setAttribute('class', 'img-opacity1');
-        socialRemove();;
         article.style.display = 'block';
+        span.setAttribute('class', 'trans');
     })
     home.addEventListener('click', function() {
         if (iopacity.classList.contains('img-opacity1')) {
