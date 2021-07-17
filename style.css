@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #222020;
     font-family: sans-serif;
 }
 
@@ -35,7 +35,7 @@ section .side-bar nav {
 
 section .side-bar nav div {
     font-size: 1vw;
-    margin-bottom: 40px;
+    margin-bottom: 40%;
     width: 7vw;
     padding: 1vw 2vw;
     background-color: #0043ff;
@@ -50,7 +50,7 @@ section .side-bar nav div:hover {
 }
 
 main .image {
-    width: 10vw;
+    max-width: 10vw;
 }
 
 .image span {
@@ -111,8 +111,8 @@ img {
 
 .grid img {
     border-radius: 5px;
-    margin-left: 31px;
-    margin-bottom: 13px;
+    margin-left: 5%;
+    margin-bottom: 1.6%;
     width: 13vw;
     transition-property: transform;
     transition-duration: 0.5s;
@@ -123,6 +123,7 @@ img {
 }
 
 .social {
+    max-width: 10vw;
     display: none;
     position: absolute;
     top: 30%;
@@ -134,7 +135,7 @@ img {
     display: none;
     color: #0043ff;
     font-size: 10vw;
-    margin-right: 90px;
+    margin-right: 90%;
     transition-property: transform;
     transition-duration: 0.5s;
 }
